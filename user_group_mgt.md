@@ -61,4 +61,14 @@ sudo usermod -e YYYY-MM-DD john # specify expiry date
 su john                     # login as john
 chgrp -R editor documents   # change the group of documents as `editor`
 
+chmod u+x hello.sh          # set executable permission
+
+chmod +t documents          # set sticky bit
+chmod +w filename
+chmod o-w filename          # remove permission
+chmod 777 filename          # octal format
+
+chmod ugo+x filename
 ```
+
+> When you create a new  le or directory in Ubuntu, the default permissions for  les are read and write access to owner and owner's **private group**, along with read, write, and execute access for directories. You can check the default setting with umask -S.
