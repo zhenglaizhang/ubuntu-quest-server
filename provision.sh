@@ -7,6 +7,9 @@ sudo apt-get install shadowsocks-qt5
 pip install pgcli
 
 
+
+sudo apt install xclip
+
 # make bootable disk with gddrescue
 apt-get install gddrescue
 fdisk -l
