@@ -1,10 +1,10 @@
+# migrate all the dotfiles
+
 # shadowsocks-qt5
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 # optional: sudo apt-get -f install libappindicator1 libindicator7
-
-
 
 sudo apt-get install python3-pip
 pip install --upgrade pip
@@ -49,7 +49,19 @@ sudo apt-get install -y \
   git \
   zsh \
   sshpass \ # sshpass -p your_password ssh user@hostname
-  
+  sshfs
+
+
+
+# transfer from mac
+#mkdir /mnt/macMount
+#sshfs YOUR_MAC_USERNAME@YOUR.MAC.IP:/ /mnt/macMount/
+
+
+# vim plugins
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+
 # apt-get install zsh
 # apt-get install git-core
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
