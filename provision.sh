@@ -13,6 +13,10 @@ pip install pgcli
 
 
 
+# http://www.howtogeek.com/114728/how-to-use-xmonad-a-tiling-window-manager-for-linux/
+sudo apt-get install xmonad suckless-tools
+
+
 sudo apt install xclip
 
 # make bootable disk with gddrescue
