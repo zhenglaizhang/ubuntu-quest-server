@@ -51,7 +51,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # chsh -s /bin/zsh
 # sudo chsh -s $(which zsh) $(whoami)
 # relogin session to see the new change
-
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 # fancy zsh theme
 sudo apt install fonts-powerline
 # need to update .zsh
