@@ -42,6 +42,9 @@ sudo apt-get install -y \
   sshfs
 
 
+# various network traffic monitors
+sudo apt-get install bmon slurm tcptrack iftop ifstat speedometer
+# speedometer -l -r wlan0 -t wlan0 -m $(( 1024 * 1024 * 3 / 2 ))
 
 # transfer from mac
 # sudo mkdir /mnt/macMount
