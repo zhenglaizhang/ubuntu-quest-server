@@ -31,16 +31,6 @@ dd if=/home/user/downloads/ubuntu-16.04-server-amd64.iso of=/dev/sdc bs=1M; sync
 # diskutil unmountDisk /dev/disk2
 # # sudo dd if=<path_to_IMG_file> of=<device_node_of_usb_media> bs=1m
 
-
-
-sudo apt-get remove ibus  // 卸载ibus输入法
-sudo apt-get remove scim  // 卸载ibus输入法
-sudo apt-get autoremove   // 删除依赖包，不再使用的package
-sudo apt-get -f install   // 尝试修正安装过程中出现的依赖性关系
-sudo add-apt-repository ppa:fcitx-team/nightly
-
-
-
 # zsh
 sudo apt-get update && \
 sudo apt-get install -y \
@@ -150,3 +140,10 @@ sudo usermod -aG docker $(whoami)
 
 # normal apps
 https://github.com/geeeeeeeeek/electronic-wechat/releases
+
+sudo apt-get remove ibus  // 卸载ibus输入法
+sudo apt-get remove scim  // 卸载ibus输入法
+sudo apt-get autoremove   // 删除依赖包，不再使用的package
+sudo apt-get -f install   // 尝试修正安装过程中出现的依赖性关系
+sudo add-apt-repository ppa:fcitx-team/nightly
+http://pinyin.sogou.com/linux/?r=pinyin
