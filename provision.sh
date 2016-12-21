@@ -47,7 +47,8 @@ sudo apt-get install -y \
   curl \
   vim \
   git \
-  zsh
+  zsh \
+  sshpass \ # sshpass -p your_password ssh user@hostname
   
 # apt-get install zsh
 # apt-get install git-core
@@ -60,9 +61,6 @@ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 # fancy zsh theme
 sudo apt install fonts-powerline
-# need to update .zsh
-# ZSH_THEME="agnoster"
-
 
 # hub
 sudo add-apt-repository ppa:cpick/hub
