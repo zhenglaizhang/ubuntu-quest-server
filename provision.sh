@@ -54,8 +54,8 @@ sudo apt-get install -y \
 
 
 # transfer from mac
-#mkdir /mnt/macMount
-#sshfs YOUR_MAC_USERNAME@YOUR.MAC.IP:/ /mnt/macMount/
+# sudo mkdir /mnt/macMount
+# sshfs YOUR_MAC_USERNAME@YOUR.MAC.IP:/ /mnt/macMount/
 
 
 # vim plugins
@@ -145,3 +145,8 @@ sudo usermod -aG docker $(whoami)
 
 # firacode
 # ubuntu mono powerline font
+
+
+
+# normal apps
+https://github.com/geeeeeeeeek/electronic-wechat/releases
