@@ -15,6 +15,7 @@ pip install pgcli
 
 # http://www.howtogeek.com/114728/how-to-use-xmonad-a-tiling-window-manager-for-linux/
 sudo apt-get install xmonad suckless-tools
+sudo apt-get install awesome awesome-extra
 
 
 sudo apt install xclip
