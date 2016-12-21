@@ -58,6 +58,10 @@ sudo apt install fonts-powerline
 # ZSH_THEME="agnoster"
 
 
+# hub
+sudo add-apt-repository ppa:cpick/hub
+sudo apt-get update
+sudo apt-get install hub
 
 # tmux
 sudo apt-get update -yqqu
