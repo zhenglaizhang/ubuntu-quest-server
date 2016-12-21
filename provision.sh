@@ -125,3 +125,7 @@ sudo systemctl status docker
 # avoid sudo to run docker, need to logout & login 
 sudo usermod -aG docker $(whoami)
 
+
+
+# firacode
+# ubuntu mono powerline font
