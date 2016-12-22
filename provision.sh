@@ -20,6 +20,7 @@ sudo apt-get update
 sudo apt-get --allow-unauthenticated install sur5r-keyring
 sudo apt-get update
 sudo apt-get install i3
+sudo apt-get install j4-dmenu-desktop
 
 sudo apt install xclip
 
