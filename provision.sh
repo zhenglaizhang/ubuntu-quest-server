@@ -30,6 +30,9 @@ ddrescue -d -D --force <path and file name of the ISO> /dev/<device name>
 dd if=/home/user/downloads/ubuntu-16.04-server-amd64.iso of=/dev/sdc bs=1M; sync
 
 
+# pdf
+# https://www.foxitsoftware.com/downloads/
+
 # Mac
 # hdiutil convert -format UDRW -o <path_to_save_IMG_file> <path_to_ISO_image> # convert img to iso
 # diskutil list
