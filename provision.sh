@@ -11,11 +11,15 @@ pip install --upgrade pip
 sudo apt-get install libpq-dev # deps
 pip install pgcli
 
-sudo echo "deb http://debian.sur5r.net/i3/ $(lsb_release -c -s) universe" >> /etc/apt/sources.list
+# login to the root shell for one 'echo' command
+sudo -i
+echo "deb http://debian.sur5r.net/i3/ $(lsb_release -c -s) universe" >> /etc/apt/sources.list
+logout
+# we've returned to our user account
 sudo apt-get update
 sudo apt-get --allow-unauthenticated install sur5r-keyring
 sudo apt-get update
-apt-get install i3
+sudo apt-get install i3
 
 sudo apt install xclip
 
