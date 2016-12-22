@@ -11,12 +11,11 @@ pip install --upgrade pip
 sudo apt-get install libpq-dev # deps
 pip install pgcli
 
-
-
-# http://www.howtogeek.com/114728/how-to-use-xmonad-a-tiling-window-manager-for-linux/
-sudo apt-get install xmonad suckless-tools
-sudo apt-get install awesome awesome-extra
-
+sudo echo "deb http://debian.sur5r.net/i3/ $(lsb_release -c -s) universe" >> /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get --allow-unauthenticated install sur5r-keyring
+sudo apt-get update
+apt-get install i3
 
 sudo apt install xclip
 
