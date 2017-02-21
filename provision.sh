@@ -9,7 +9,7 @@ sudo apt-get install shadowsocks-qt5
 sudo apt-get install python3-pip
 pip install --upgrade pip
 sudo apt-get install libpq-dev # deps
-pip install pgcli
+pip install pgcli mycli
 
 # login to the root shell for one 'echo' command
 sudo -i
