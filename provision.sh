@@ -2,7 +2,13 @@
 
 # shadowsocks-qt5
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
-sudo apt-get update
+
+# latest git
+sudo add-apt-repository ppa:git-core/ppa
+
+
+sudo apt update
+
 sudo apt-get install shadowsocks-qt5
 # optional: sudo apt-get -f install libappindicator1 libindicator7
 
