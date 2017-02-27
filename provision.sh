@@ -12,6 +12,9 @@ sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo add-apt-repository ppa:git-core/ppa
 
 
+sudo apt purge firefox unity-scope-firefoxbookmarks firefox-locale-en
+sudo rm /etc/firefox
+
 sudo apt update
 
 sudo apt-get install shadowsocks-qt5 curl git tmux-next
