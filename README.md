@@ -18,3 +18,19 @@ sudo apt-get --purge remove xserver-xorg-video-nouveau
 sudo ubuntu-drivers devices
 sudo apt-get install nvidia-337
 ```
+
+
+### Kafka
+
+```bash
+# delete topic
+# enable properties is set `delete.topic.enable=true` 
+bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic test
+```
+
+### Tips
+
+```bash
+tar xf archive.tar -C /target/directory
+tar xf archive.tar -C /target/directory --strip-components=1
+```
