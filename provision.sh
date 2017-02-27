@@ -14,7 +14,9 @@ sudo add-apt-repository ppa:git-core/ppa
 
 sudo apt update
 
-sudo apt-get install shadowsocks-qt5 curl git
+sudo apt-get install shadowsocks-qt5 curl git tmux-next
+sudo ln -s /usr/bin/tmux-next /usr/bin/tmux
+
 # optional: sudo apt-get -f install libappindicator1 libindicator7
 
 sudo apt-get install python3-pip
