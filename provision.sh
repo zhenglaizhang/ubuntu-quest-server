@@ -1,5 +1,10 @@
 # migrate all the dotfiles
 
+# ramdisk
+sudo mkdir -p /media/ramdisk
+sudo mount -t tmpfs -o size=4096M tmpfs /media/ramdisk
+grep /media/ramdisk /etc/mtab | sudo tee -a /etc/fstab
+
 # shadowsocks-qt5
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
 
@@ -9,7 +14,7 @@ sudo add-apt-repository ppa:git-core/ppa
 
 sudo apt update
 
-sudo apt-get install shadowsocks-qt5
+sudo apt-get install shadowsocks-qt5 curl git
 # optional: sudo apt-get -f install libappindicator1 libindicator7
 
 sudo apt-get install python3-pip
