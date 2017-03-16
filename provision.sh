@@ -1,5 +1,7 @@
 # migrate all the dotfiles
 
+sudo apt-get install software-properties-common python-software-properties
+
 # ramdisk
 sudo mkdir -p /media/ramdisk
 sudo mount -t tmpfs -o size=4096M tmpfs /media/ramdisk
